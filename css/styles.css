@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+/*2021 Hex Codes:
+#2c292d
+#413d43
+#ff6188
+#fc9867
+#ffd866
+#a9dc76
+#78dce8
+#ab9df2
+*/
 html {
     height: 100%;
 }
@@ -13,9 +23,9 @@ ul  {
 }
 
 .button {
-  background-color: #ffa31d;
+  background-color: #2c292d;
   border: none;
-  color: #0d2d4c;
+  color: #FFFFFF;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -63,62 +73,83 @@ nav > ul > li {
     margin-right: 10px;
 }
 
-nav > ul > li.nav-reg > a {
-   color: #ffbc5a;
-}
-
 nav > ul > li:hover {
     border-radius: 1.5vh;
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
 nav > ul > li > a {
-    font-size: 2.2vh;
+    font-size: 2.5vh;
     text-decoration: none;
 }
 .navTransparent {
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
     background-color: transparent;
 }
 .navTransparent > ul > li:hover, .navTransparent > ul > li.nav-reg {
-    border: 1px solid #ffbc5a;
+    transition-duration: 0.5s;
+    border: 1px solid #ffffff;
 }
 .navTransparent > ul > li > a {
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    color: white;
-    font-size: 2.5vh;
 }
 .navTransparent > p {
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
     color: white;
 }
 .navColor {
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s;
-    background-color: #071a2c;
+    background-color: #2c292d;
 }
 .navColor > ul > li:hover, .navColor > ul > li.nav-reg {
-    border: 1px solid #ffbc5a;
+    transition-duration: 0.5s;
+    border: 1px solid #413d43;
 }
 .navColor > ul > li > a {
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.navColor > ul > li > #about-button {
+  color: #ffd866;
+}
+.navColor > ul > li > #schedule-button {
+  color: #78dce8;
+}
+.navColor > ul > li > #faq-button {
+  color: #a9dc76;
+}
+.navColor > ul > li > #sponsors-button {
+  color: #ab9df2;
+}
+.navColor > ul > li > #team-button {
+  color: #ff6188;
+}
+.navColor > ul > li > #register-button-nav {
+  color: #fc9867;
+}
+.navColor > ul > li > #discord-button-nav {
+  color: #ffd866;
+}
+.navColor > p {
     transition-duration: 0.5s;
     color: white;
 }
-.navColor > p {
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    color: white;
+.footer-white > a > span{
+  transition-duration: 0.5s;
+  color: white;
+}
+.footer-colored > a > span{
+  transition-duration: 0.5s;
+}
+.footer-colored > #footer-envelope > span{
+  color: #ffd866;
+}
+.footer-colored > #footer-github > span{
+  color: #fc9867;
+}
+.footer-colored > #footer-twitter > span{
+  color: #78dce8;
+}
+.footer-colored > #footer-instagram > span{
+  color: #ff6188;
 }
 footer {
     /*margin: 3vh 2vw;*/
@@ -155,8 +186,8 @@ footer > a > img {
 
 header {
     width: 100%;
-    background: linear-gradient(#1e4973AA, #1e4973AA), url('../media/old_header.jpg');
-    background-attachment: fixed;
+    background: linear-gradient(#2c292d00,#2c292dFF), url('../media/old_header.jpg');
+    background-attachment: scroll;
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +201,16 @@ header p {
     font-size: 5.7vh;
     color: white;
 }
+#register-button-header{
 
+
+  transition-duration: 0.5s;
+}
+#discord-button-header{
+
+
+  transition-duration: 0.5s;
+}
 .main-container {
     padding-top: 3vh;
     height: 100vh;
@@ -181,7 +221,7 @@ header p {
 }
 /* Copy-pasta from old C10 HAX site */
 .body-container {
-    background-color: #0d2d4c;
+    /*background-color: #2c292d;*/
     display: flex;
     flex-direction: column;
 }
@@ -189,7 +229,7 @@ header p {
     padding-bottom: 3.5%;
 }
 .colored   {
-    background-color: #0D2D4C;
+    background-color: #2c292d;
 }
 .colored > h1   {
     color: #ffa31d;
@@ -236,6 +276,12 @@ tr:nth-child(even) {
     height: 100%;
     width: 40%;
 }
+#schedule-header-main{
+  color: #ab9df2;
+}
+#schedule-header-breakout{
+  color: #ff6188;
+}
 .team {
     margin-top: 6vh;
     margin-left: auto;
@@ -252,6 +298,45 @@ tr:nth-child(even) {
 .team a:link{
 	color: white;
 }
+#h2-Anna{
+  color: #ffd866;
+}
+#h2-Ryan{
+  color: #78dce8;
+}
+#h2-Jesse{
+  color: #a9dc76;
+}
+#h2-Jeffrey{
+  color: #ab9df2;
+}
+#h2-Nicole{
+  color: #ff6188;
+}
+#h2-Laura{
+  color: #fc9867;
+}
+#h2-Akshay{
+  color: #ffd866;
+}
+#h2-Austin{
+  color: #78dce8;
+}
+#h2-Sophia{
+  color: #a9dc76;
+}
+#h2-Anurag{
+  color: #ab9df2;
+}
+#h2-Arjav{
+  color: #ff6188;
+}
+#h2-Daeyong{
+  color: #fc9867;
+}
+#h2-Lucas{
+  color: #ffd866;
+}
 .team a:visited{
 	color: white;
 }
@@ -266,7 +351,6 @@ tr:nth-child(even) {
 }
 .team > div > h2 {
     font-size: 3vh;
-    color: #ffbc5a;
 }
 .team > div > p {
     font-size: 2.4vh;
@@ -296,7 +380,7 @@ tr:nth-child(even) {
 }
 .accordion {
     margin-top: 0vh;
-    background-color: #1A5A98;
+    background-color: #413d43;
     color: #FFFFFF;
     cursor: pointer;
     padding: 18px;
@@ -311,12 +395,10 @@ tr:nth-child(even) {
     font-weight:500;
 }
 .active, .accordion:hover {
-    background-color: #40bc96;
+    background-color: #a9dc76;
     color: white;
 }
 .accordion:after {
-    content: '\002B';
-    color: #212121;
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -326,7 +408,7 @@ tr:nth-child(even) {
     color: #ffffff;
 }
 .panel{
-    background-color: #0D2D4C;
+    background-color: #2c292d;
     max-height: 0;
     overflow: hidden;
     -webkit-transition: max-height 0.2s ease-out;
@@ -334,12 +416,14 @@ tr:nth-child(even) {
     transition: max-height 0.2s ease-out;
     font-weight:300;
 }
-.panel a:link{
-    text-decoration: none;
-    color: #ffa31d;
+.faq-a-email{
+  color: #ffd866;
 }
-.panel a:visited{
-    color: #ffa31d;
+#faq-a-schedule{
+  color:#78dce8;
+}
+.panel a{
+    text-decoration: none;
 }
 .panel a:hover{
     text-decoration: underline;
@@ -427,7 +511,6 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-bottom: 5vh;
     text-align: left;
-    color: white;
     font-size: 20px;
     border: none;
     border-collapse: collapse;
@@ -438,17 +521,30 @@ td  {
 }
 tr, th, td  {
     border: none;
-    background-color: #0D2D4C;
+    background-color: #2c292d;
 }
 .table_heading  {
-    border-bottom: 2px solid #ffa31d;
+    border-bottom: 2px solid #FFFFFF;
     padding: 1vh 2vw;
 }
 .section-heading {
     font-size: 8vh;
-    color: #ffa31d;
 }
-
+#about-heading {
+  color: #ffd866;
+}
+#schedule-heading {
+  color: #78dce8;
+}
+#faq-heading {
+  color: #a9dc76;
+}
+#sponsors-heading {
+  color: #ab9df2;
+}
+#team-heading {
+  color: #ff6188;
+}
 .fab, .fas {
     color: white;
 }
@@ -456,8 +552,7 @@ tr, th, td  {
 .body-border {
   border-width: 2px;
   width: 90%;
-
-  border-color: #40bc96;
+  border-color: #FFFFFF;
 }
 
 .colored > .sponsors-h2{
@@ -467,8 +562,8 @@ tr, th, td  {
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
    header {
         width: 100%;
-        background: linear-gradient(#1e4973AA, #1e4973AA), url('../media/old_header.jpg');
-        background-attachment: fixed;
+        background: linear-gradient(#2c292d44, #2c292dFF), url('../media/old_header.jpg');
+        background-attachment: scroll;
         background-position: left bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -516,7 +611,6 @@ tr, th, td  {
         text-align: center;
     }
     .body-container {
-        background-color: #0D2D4C;
         display: flex;
         flex-direction: column;
     }
@@ -591,8 +685,8 @@ tr, th, td  {
     }
     header {
         width: 100%;
-        background: linear-gradient(#1e4973AA, #1e4973AA), url('../media/old_header.jpg');
-        background-attachment: fixed;
+        background: linear-gradient(#2c292d44, #2c292dFF), url('../media/old_header.jpg');
+        background-attachment: scroll;
         background-position: left bottom;
         background-repeat: no-repeat;
         background-size: cover;
@@ -640,7 +734,6 @@ tr, th, td  {
         text-align: center;
     }
     .body-container {
-        background-color: #0D2D4C;
         display: flex;
         flex-direction: column;
     }

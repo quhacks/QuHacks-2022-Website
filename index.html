@@ -15,13 +15,13 @@
         <nav class="navTransparent">
         <p><a href="#header">QuHacks 2021</a></p>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#schedule">Schedule</a></li>
-                <li><a href="#faq">FAQs</a></li>
-                <li><a href="#sponsors">Sponsors</a></li>
-                <li><a href="#team">Team</a></li>
-                <li class="nav-reg"><a href="https://freddy735511.typeform.com/to/urbLvMSO" target="_blank">Register</a></li>
-                <li class="nav-reg"><a href="https://discord.gg/KnaSxjBqyn" target="_blank">Discord Server</a></li>
+                <li><a href="#about" id="about-button">About</a></li>
+                <li><a href="#schedule" id="schedule-button">Schedule</a></li>
+                <li><a href="#faq" id="faq-button">FAQs</a></li>
+                <li><a href="#sponsors" id="sponsors-button">Sponsors</a></li>
+                <li><a href="#team" id="team-button">Team</a></li>
+                <li class="nav-reg"><a href="https://freddy735511.typeform.com/to/urbLvMSO" target="_blank" id="register-button-nav">Register</a></li>
+                <li class="nav-reg"><a href="https://discord.gg/KnaSxjBqyn" target="_blank" id="discord-button-nav">Discord Server</a></li>
             </ul>
         </nav>
         <header id="header">
@@ -30,14 +30,14 @@
                 <li class="flex-img"><img src="media/quhacks-2020-dark-logo.png" class="logo-normal"></li>
                 <li class="flex-info">
                     <p>December 18th, 2021</p><a href="https://freddy735511.typeform.com/to/urbLvMSO" target="_blank"
-                        class="button">Register</a><a href="https://discord.gg/KnaSxjBqyn" target="_blank" class="button">Discord
+                        class="button" id="register-button-header">Register</a><a href="https://discord.gg/KnaSxjBqyn" target="_blank" class="button" id="discord-button-header">Discord
                         Server</a>
                 </li>
             </ul>
         </header>
-        <div class="body-container">
+        <div class="body-container colored">
             <div id="about">
-                <h1 class="section-heading">About</h1>
+                <h1 class="section-heading" id="about-heading">About</h1>
                 <ul class="about-content flexbox">
                     <li class="flex-img about-img"><img src="media/stickers.JPG"></li>
                     <li class="flex-info">
@@ -51,97 +51,120 @@
                 </ul>
             </div>
             <hr class="body-border">
-            <div class="schedule colored" id="schedule">
-                <h1 class="section-heading">Schedule (TBD)</h1>
-                <p>Outdated 2020 schedule is down below.</p>
-                <h1 class="sponsors-label sponsors-h2">December 18th (workshops in advance)</h1><div class="scroll-wrapper">
+            <div class="schedule" id="schedule">
+                <h1 class="section-heading" id="schedule-heading">Schedule (TBD)</h1>
+                <h1 class="sponsors-label sponsors-h2" id="schedule-header-main">Main Agenda</h1>
+                <div class="scroll-wrapper">
                     <table class="table">
                         <thead class="thead-dark">
                             <tr>
                                 <th class="table_heading" scope="col">Time (EST)</th>
-                                <th class="table_heading" scope="col">Events</th>
+                                <th class="table_heading" scope="col">Agenda</th>
+                                <th class="table_heading" scope="col">Main Room</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <th scope="row">5:00PM-6:00PM</th>
-                                <td>Workshop Rotation 0: Java, Python, Web Development, and Introductory Algorithms</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">7:00PM-8:00PM</th>
-                                <td>Guest Talk: Web Accessibility/Design</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                                <tr>
+                                    <th scope="row">9:00-9:30AM</th>
+                                    <td>Welcome Ceremony</td>
+                                    <td>Welcome Ceremony</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">10:00-11:00AM</th>
+                                    <td>Workshops Round 1</td>
+                                    <td>Coding!</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11:00AM-12:00PM</th>
+                                    <td>Workshops Round 2</td>
+                                    <td>Coding!</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12:00-1:00PM</th>
+                                    <td>Workshops Round 3</td>
+                                    <td>Coding!</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">1:00-2:00PM</th>
+                                    <td>Lunch Break</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2:00-3:00PM</th>
+                                    <td>Event Round 1</td>
+                                    <td>Alumni Discussion Panel</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3:00-4:00PM</th>
+                                    <td>Event Round 2</td>
+                                    <td>Guest Talk</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4:00-7:00PM</th>
+                                    <td>Work Time</td>
+                                    <td>Coding; submissions due 7PM sharp!</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7:00-9:00PM</th>
+                                    <td>Judging</td>
+                                    <td>TypeRacer tournament!!!</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">9:00-9:30PM</th>
+                                    <td>Awards and Closing Ceremony</td>
+                                    <td>Awards and Closing Ceremony!</td>
+                                </tr>
+                            </tbody>
+                        </table>
                 </div>
-            <h1 class="sponsors-label sponsors-h2">December 19th (main day)</h1>
-            <div class="scroll-wrapper">
-                <table class="table">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th class="table_heading" scope="col">Time (EST)</th>
-                            <th class="table_heading" scope="col">Events</th>
-                            <th class="table_heading" scope="col">Recommended Project Progression</th>
-                        </tr>
-                    </thead>
-                    <tbody>
+                <h1 class="sponsors-label sponsors-h2" id="schedule-header-breakout">Breakout Room Agenda</h1>
+                <div class="scroll-wrapper">
+                    <table class="table">
+                        <thead class="thead-dark">
                             <tr>
-                                <th scope="row">9:00-9:30AM</th>
-                                <td>Welcome Ceremony</td>
-                                <td>Listen intently!</td>
+                                <th class="table_heading" scope="col">Time (EST)</th>
+                                <th class="table_heading" scope="col">Room 1</th>
+                                <th class="table_heading" scope="col">Room 2</th>
+                                <th class="table_heading" scope="col">Room 3</th>
+                                <th class="table_heading" scope="col">Room 4</th>
                             </tr>
-                            <tr>
-                                <th scope="row">10:00-11:00AM</th>
-                                <td>Workshop rotation 1: Java, Python, Web Development, and Introductory Algorithms</td>
-                                <td>Brainstorming/planning!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">11:00AM-12:00PM</th>
-                                <td>Workshop rotation 2: Java, Python, Web Development, and Advanced Algorithms<br>Alon Grinshpoon (CEO and founder of echoAR) presents: "Build a Cloud-Connected AR/VR App in 15 Minutes or Less"</td>
-                                <td>Coding!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">12:00-1:00PM</th>
-                                <td>Novice Division problems released, Lunch</td>
-                                <td>Eat something!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">1:00-2:00PM</th>
-                                <td>Computer Science Student College Panel</td>
-                                <td>Back to coding!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2:00-3:00PM</th>
-                                <td>Guest Talk: Data Ethics</td>
-                                <td>Keep coding!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3:00-4:00PM</th>
-                                <td>Guest Talk: Web Accessibility/Design</td>
-                                <td>Great time to integrate!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">4:00-7:00PM</th>
-                                <td>Work Time</td>
-                                <td>Debugging and perfecting submissions!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">7:00-9:00PM</th>
-                                <td>Submissions due, Judging begins</td>
-                                <td>Take a breather!</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">9:00-9:30PM</th>
-                                <td>Awards and Closing Ceremony</td>
-                                <td>Bask in the glory of your creation.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                        </thead>
+                        <tbody>
+                                <tr>
+                                    <th scope="row">10:00-11:00AM</th>
+                                    <td>Python CLI Project w/<br>Sophia, Ishani, and Akshay</td>
+                                    <td>Web Development w/<br>Jesse and Jeff</td>
+                                    <td>AI w/<br>Daeyong and Anurag</td>
+                                    <td>Algorithms w/<br>Julian and Austin</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">11:00AM-12:00PM</th>
+                                    <td>Python CLI Project w/<br>Sophia, Ishani, and Akshay</td>
+                                    <td>Java w/<br>Arjav and Anna</td>
+                                    <td>AI w/<br>Daeyong and Anurag</td>
+                                    <td>Algorithms w/<br>Julian and Austin</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">12:00-1:00PM</th>
+                                    <td>Python CLI Project w/<br>Sophia, Ishani, and Akshay</td>
+                                    <td>Web Development w/<br>Jesse and Jeff</td>
+                                    <td>AI w/<br>Daeyong and Anurag</td>
+                                    <td>Java w/<br>Arjav and Anna</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7:00-9:00PM</th>
+                                    <td>Judging</td>
+                                    <td>Judging</td>
+                                    <td>Judging</td>
+                                    <td>CLI Project Judging</td>
+                                </tr>
+                            </tbody>
+                        </table>
                 </div>
             </div>
             <hr class="body-border">
             <div class="faq-container" id="faq">
-                <h1 class="section-heading">FAQs</h1>
+                <h1 class="section-heading" id="faq-heading">FAQs</h1>
                 <div class="faq">
                     <button class="accordion">What is a Hackathon?</button>
                     <div class="panel">
@@ -156,12 +179,12 @@
                         <p>You are eligible to participate in QuHacks 2021 if you currently attend school (middle or high school) in Maryland,
                             Pennsylvania, Delaware, West Virginia, Virginia, or DC, and reside in one of those states (or DC). If you have
                             already graduated high school but would still like to attend the event, please consider volunteering or mentoring
-                            for the event! Send us an email at <a href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a> for more information
+                            for the event! Send us an email at <a class="faq-a-email"href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a> for more information
                             on contributing to QuHacks, or if you have any questions about our eligibility requirements.</p>
                     </div>
                     <button class="accordion">How much does QuHacks cost?</button>
                     <div class="panel">
-                        <p>Nothing! This event is entirely free of charge, thanks to our awesome sponsors. If you're interested in becoming a sponsor, please email us at <a href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a></p>
+                        <p>Nothing! This event is entirely free of charge, thanks to our awesome sponsors. If you're interested in becoming a sponsor, please email us at <a class="faq-a-email"href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a>.</p>
                     </div>
                     <button class="accordion">Can I win any prizes? (TBD)</button>
                     <div class="panel">
@@ -186,7 +209,7 @@
                         <p>Yes! QuHacks 2021 will have a virtual option in addition to the in-person event. You will be participating on the
                             same schedule as the in-person folks and you will still have the opportunity to attend workshops, guest
                             speakers, etc. We will also be opening a moderated Discord server where hackers can chat, ask questions, and
-                            receive important announcements. Check our <a href="#schedule">schedule</a> for more information on what will be
+                            receive important announcements. Check our <a id="faq-a-schedule"href="#schedule">schedule</a> for more information on what will be
                             happening when.</p>
                     </div>
                     <button class="accordion">Can I use past projects?</button>
@@ -204,8 +227,8 @@
                 </div>
             </div>
             <hr class="body-border">
-            <div id="sponsors" class="sponsors-container colored">
-                <h1 class="section-heading">Sponsors (TBD)</h1>
+            <div id="sponsors" class="sponsors-container">
+                <h1 class="section-heading" id="sponsors-heading">Sponsors (TBD)</h1>
                 <!-- <h1 class = "sponsors-label sponsors-h2">Gold Sponsors</h1>
                 <ul class="sponsors-gold">
                     <li><a href="https://www.balsamiq.com/" target="_blank"><img src="media/sponsors/balsamiq.png"></a></li>
@@ -232,43 +255,43 @@
                 </ul> -->
             </div>
             <hr class="body-border">
-            <div id="team" class="colored">
-                <h1 class="section-heading">Our Team</h1>
+            <div id="team">
+                <h1 class="section-heading" id="team-heading">Our Team</h1>
                 <div class="team">
-                    <div><img src="media/team/annaheadshot.jpg" /><h2>Anna Han<br>Director</h2><p>Anna is a senior at Marriotts Ridge High School, where she is involved with She++, speech, and FBLA. Outside of school, she is part of the HopeWorks Youth Leadership Program, the JHU APL STEM Academy/ASPIRE program, and Howard County Sources of Strength. In her free time, Anna loves spending time with her family and playing the piano, violin, viola, and guitar.</p></div>
+                    <div><img src="media/team/annaheadshot.jpg" /><h2 id="h2-Anna">Anna Han<br>Director</h2><p>Anna is a senior at Marriotts Ridge High School, where she is involved with She++, speech, and FBLA. Outside of school, she is part of the HopeWorks Youth Leadership Program, the JHU APL STEM Academy/ASPIRE program, and Howard County Sources of Strength. In her free time, Anna loves spending time with her family and playing the piano, violin, viola, and guitar.</p></div>
 
-                    <div><img src="media/team/ryanheadshot.jpg" /><h2>Ryan Yu<br>Organizer</h2><p>Ryan is a Senior at Centennial High School, where he’s the president of CyberPatriot, Chess club along with running Track. Ryan currently interns at JHU as a visiting scholar, designing a disease simulation with a team of 70 undergraduate and masters students. In his free time, Ryan enjoys going to the gym, reading and complaining.</p></div>
+                    <div><img src="media/team/ryanheadshot.jpg" /><h2 id="h2-Ryan">Ryan Yu<br>Organizer</h2><p>Ryan is a Senior at Centennial High School, where he’s the president of CyberPatriot, Chess club along with running Track. Ryan currently interns at JHU as a visiting scholar, designing a disease simulation with a team of 70 undergraduate and masters students. In his free time, Ryan enjoys going to the gym, reading and complaining.</p></div>
 
-                    <div><img src="media/team/jesseheadshot.jpg" /><h2>Jesse Zong<br>Organizer</h2><p>Jesse is a junior at Centennial High School, where he is a member of It’s Academic, Pyoneers (Python club), and debate. He also currently interns at the JHU School of Medicine, works with ESOL/FARM tutoring organization AST, and leads the activism team of an AAPI youth advocacy initiative. In his free time, Jesse enjoys participating in (and losing) hackathons/coding competitions, cooking, and playing tennis.</p></div>
+                    <div><img src="media/team/jesseheadshot.jpg" /><h2 id="h2-Jesse">Jesse Zong<br>Organizer</h2><p>Jesse is a junior at Centennial High School, where he is a member of It’s Academic, Pyoneers (Python club), and debate. He also currently interns at the JHU School of Medicine, works with ESOL/FARM tutoring organization AST, and leads the activism team of an AAPI youth advocacy initiative. In his free time, Jesse enjoys participating in (and losing) hackathons/coding competitions, cooking, and wasting money on gacha games.</p></div>
 
-                    <div><img src="media/team/jeffheadshot.jpg" /><h2>Jeffrey Cheng<br>Organizer</h2><p>Jeff is a senior at Centennial High School, where he’s involved with Centennial Competitive Coding, National Math Honor Society, and the varsity Cross Country and Track teams. Outside of school, Jeff is an ASPIRE intern at JHUAPL and a tutor for CTD. In his free time, Jeff enjoys participating in (and winning) hackathons and coding competitions, listening to music, and watching sports that he is not talented enough in to play competitively.</p></div>
+                    <div><img src="media/team/jeffheadshot.jpg" /><h2 id="h2-Jeffrey">Jeffrey Cheng<br>Organizer</h2><p>Jeff is a senior at Centennial High School, where he’s involved with Centennial Competitive Coding, National Math Honor Society, and the varsity Cross Country and Track teams. Outside of school, Jeff is an ASPIRE intern at JHUAPL and a tutor for CTD. In his free time, Jeff enjoys participating in (and winning) hackathons and coding competitions, listening to music, and watching sports that he is not talented enough in to play competitively.</p></div>
 
-                    <div><img src="media/team/nicoleheadshot.png" /><h2>Nicole Luo<br>Organizer</h2><p>Nicole is a sophomore at Centennial High School, where she is a member of SGA, her Class Board, and various other clubs. She is currently also an intern for the non-profit organization Code Your Chances, a group that aims to break down gender barriers in STEM. In her free time, she loves to listen to music and rewatch Ratatouille.</p></div>
+                    <div><img src="media/team/nicoleheadshot.png" /><h2 id="h2-Nicole">Nicole Luo<br>Organizer</h2><p>Nicole is a sophomore at Centennial High School, where she is a member of SGA, her Class Board, and various other clubs. She is currently also an intern for the non-profit organization Code Your Chances, a group that aims to break down gender barriers in STEM. In her free time, she loves to listen to music and rewatch Ratatouille.</p></div>
 
-                    <div><img src="media/team/lauraheadshot.jpg" /><h2>Laura Jia<br>Organizer</h2><p>Laura is a junior at Marriotts Ridge High School, where she is part of the Mock Trial team, Interact Club, Writer’s Guild, and various other clubs. In her free time, she likes to read, bike, and bother her sister.</p></div>
+                    <div><img src="media/team/lauraheadshot.jpg" /><h2 id="h2-Laura">Laura Jia<br>Organizer</h2><p>Laura is a junior at Marriotts Ridge High School, where she is part of the Mock Trial team, Interact Club, Writer’s Guild, and various other clubs. In her free time, she likes to read, bike, and bother her sister.</p></div>
 
-                    <div><img src="media/team/akshayheadshot.jpg" /><h2>Akshay Kannan<br>Organizer</h2><p>Akshay is a junior at Marriotts Ridge High School, where he is a member of the math, debate, and HOSA clubs. He also serves as a tutor in the CTD Program. In his free time, he likes to play tennis, listen to music, and work through chemistry problems.</p></div>
+                    <div><img src="media/team/akshayheadshot.jpg" /><h2 id="h2-Akshay">Akshay Kannan<br>Organizer</h2><p>Akshay is a junior at Marriotts Ridge High School, where he is a member of the math, debate, and HOSA clubs. He also serves as a tutor in the CTD Program. In his free time, he likes to play tennis, listen to music, and work through chemistry problems.</p></div>
 
-                    <div><img src="media/team/austinheadshot.jpg" /><h2>Asutin Zou<br>Organizer</h2><p>Austin is a junior at Centennial High School, where he is involved with CHS Pyoneers, Centennial Competitive Coding, National Math Honor Society, Cyberpatriot, and Math team. Outside of school, Austin enjoys programming, listening to music, and running.</p></div>
+                    <div><img src="media/team/austinheadshot.jpg" /><h2 id="h2-Austin">Austin Zou<br>Organizer</h2><p>Austin is a junior at Centennial High School, where he is involved with CHS Pyoneers, Centennial Competitive Coding, National Math Honor Society, Cyberpatriot, and Math team. Outside of school, Austin enjoys programming, listening to music, and running.</p></div>
 
-                    <div><img src="media/team/sophiaheadshot.jpg" /><h2>Sohpia Moylan<br>Organizer</h2><p>Sophia is a junior at Marriotts Ridge High School, where she is involved with environmental, robotics, and computer science clubs. She is a member of the Youth Coalition for Climate Action, as well as the American Conservation Coalition and High School Democrats of America. Outside of school, Sophia enjoys making visual mods of her favorite RPGs, reading comics, and coding basic AIs to master games she (begrudgingly) cannot. </p></div>
+                    <div><img src="media/team/sophiaheadshot.jpg" /><h2 id="h2-Sophia">Sophia Moylan<br>Organizer</h2><p>Sophia is a junior at Marriotts Ridge High School, where she is involved with environmental, robotics, and computer science clubs. She is a member of the Youth Coalition for Climate Action, as well as the American Conservation Coalition and High School Democrats of America. Outside of school, Sophia enjoys making visual mods of her favorite RPGs, reading comics, and coding basic AIs to master games she (begrudgingly) cannot. </p></div>
 
-                    <div><img src="media/team/anuragheadshot.png" /><h2>Anurag Sodhi<br>Organizer</h2><p>Anurag is a sophomore at Centennial High School, where he is involved with CHS Pyoneers, It's Academic, Science Bowl, Science Olympiad, Math Team, Speech and Debate, and Science Journal. Outside of school, Anurag enjoys programming, biking, badminton, playing old games, and reading spare chemistry textbooks.</p></div>
+                    <div><img src="media/team/anuragheadshot.png" /><h2 id="h2-Anurag">Anurag Sodhi<br>Organizer</h2><p>Anurag is a sophomore at Centennial High School, where he is involved with CHS Pyoneers, It's Academic, Science Bowl, Science Olympiad, Math Team, Speech and Debate, and Science Journal. Outside of school, Anurag enjoys programming, biking, badminton, playing old games, and reading spare chemistry textbooks.</p></div>
 
-                    <div><img src="media/team/arjavheadshot.jpg" /><h2>Arjav Jain<br>Organizer</h2><p>Arjav is a senior at Marriotts Ridge High School, where he takes part in Science Olympiad and computer science clubs. He is also involved in FBLA. In his free time, he enjoys listening to music, playing sports, and watching Netflix shows.</p></div>
+                    <div><img src="media/team/arjavheadshot.jpg" /><h2 id="h2-Arjav">Arjav Jain<br>Organizer</h2><p>Arjav is a senior at Marriotts Ridge High School, where he takes part in Science Olympiad and computer science clubs. He is also involved in FBLA. In his free time, he enjoys listening to music, playing sports, and watching Netflix shows.</p></div>
 
-                    <div><img src="media/team/daeyongheadshot.jpg" /><h2>Daeyong Kwon<br>Organizer</h2><p>Daeyong is a senior at Centennial High School, where he is involved with CHS Pyoneers, National Math Honor Society, Music Mentors, and other honor societies. Outside of school, Daeyong is a member of a couple orchestras, student at the JHUAPL STEM Academy, and researcher with a concentration on Digital Mapping in Pioneer Academics. In his free time, Daeyong enjoys hanging out with friends, playing the violin, biking to ultimate frisbee meets, coding, and spending too much time on Genshin Impact.</p></div>
+                    <div><img src="media/team/daeyongheadshot.jpg" /><h2 id="h2-Daeyong">Daeyong Kwon<br>Organizer</h2><p>Daeyong is a senior at Centennial High School, where he is involved with CHS Pyoneers, National Math Honor Society, Music Mentors, and other honor societies. Outside of school, Daeyong is a member of a couple orchestras, student at the JHUAPL STEM Academy, and researcher with a concentration on Digital Mapping in Pioneer Academics. In his free time, Daeyong enjoys hanging out with friends, playing the violin, biking to ultimate frisbee meets, coding, and spending too much time on Genshin Impact.</p></div>
 
-                    <div><img src="media/team/lucasheadshot.PNG" /><h2>Lucas LaBuff<br>Past Organizer</h2><p>Lucas LaBuff is a graduate of Carver Center for Arts and Technology and a first-year student at the University of Maryland. Majoring in Computer Science and Mathematics, he has a particular interest in quantum computing. Outside of his studies, Lucas races for the Club Running team and is involved with the Baja SAE crew, where he pretends to be an engineer who knows how to build automobiles.</p></div>
+                    <div><img src="media/team/lucasheadshot.PNG" /><h2 id="h2-Lucas">Lucas LaBuff<br>Past Organizer</h2><p>Lucas LaBuff is a graduate of Carver Center for Arts and Technology and a first-year student at the University of Maryland. Majoring in Computer Science and Mathematics, he has a particular interest in quantum computing. Outside of his studies, Lucas races for the Club Running team and is involved with the Baja SAE crew, where he pretends to be an engineer who knows how to build automobiles.</p></div>
 
                 </div>
             </div>
         </div>
-        <footer>
-          <a href="mailto:freddy@quhacks.tech" target="_blank"><span class="fas fa-envelope fa-4x"></span></a>&nbsp
-          <a href="https://github.com/quhacks" target="_blank"><span class="fab fa-facebook fa-4x"></span></a>&nbsp
-          <a href="https://twitter.com/quhacks" target="_blank"><span class="fab fa-twitter fa-4x"></span></a>&nbsp
-          <a href="https://www.instagram.com/quhacks/" target="_blank"><span class="fab fa-instagram fa-4x"></span></a>
+        <footer class="footer-white">
+          <a id="footer-envelope" href="mailto:freddy@quhacks.tech" target="_blank"><span class="fas fa-envelope fa-4x"></span></a>&nbsp
+          <a id="footer-github"href="https://github.com/quhacks" target="_blank"><span class="fab fa-github fa-4x"></span></a>&nbsp
+          <a id="footer-twitter"href="https://twitter.com/quhacks" target="_blank"><span class="fab fa-twitter fa-4x"></span></a>&nbsp
+          <a id="footer-instagram"href="https://www.instagram.com/quhacks/" target="_blank"><span class="fab fa-instagram fa-4x"></span></a>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/script.js"></script>

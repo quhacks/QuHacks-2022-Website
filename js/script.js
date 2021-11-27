@@ -8,11 +8,19 @@ $(document).ready(function (){
         var scroll = $(window).scrollTop();
         if(scroll > 100){
             $("nav").removeClass("navTransparent");
-            $("nav").addClass("navColor");   
+            $("nav").addClass("navColor");
+            $("#register-button-header").css("color", "#fc9867");
+            $("#discord-button-header").css("color", "#ffd866");
+            $("footer").removeClass("footer-white");
+            $("footer").addClass("footer-colored");
         }
         else{
             $("nav").removeClass("navColor");
             $("nav").addClass("navTransparent");
+            $("#register-button-header").css("color", "#ffffff");
+            $("#discord-button-header").css("color", "#ffffff");
+            $("footer").removeClass("footer-colored");
+            $("footer").addClass("footer-white");
         }
     })
     $(document).on('click', 'a[href^="#"]', function (event) {
