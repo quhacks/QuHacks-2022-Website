@@ -261,8 +261,8 @@ tr:nth-child(even) {
 }
 .team > div > img {
     border-radius: 50%;
-    height: auto;
-    width: 50%;
+    height: 35%;
+    width: 70%;
 }
 .team > div > h2 {
     font-size: 3vh;
