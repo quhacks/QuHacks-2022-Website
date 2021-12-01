@@ -346,6 +346,7 @@ tr:nth-child(even) {
 }
 .team > div > img {
     border-radius: 50%;
+    object-fit: cover;
     height: 35%;
     width: 70%;
 }
