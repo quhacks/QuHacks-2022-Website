@@ -449,8 +449,12 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 .sponsors-gold img {
-    height: auto;
-    width: 50%;
+    height: 10%;
+    width: 10%;
+}
+.sponsors-h2 {
+    color: gold;
+
 }
 .sponsors-silver   {
     text-align: center;
