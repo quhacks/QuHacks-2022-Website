@@ -773,9 +773,6 @@ tr, th, td  {
     .about-img  {
         width: 100%;
     }
-    .team   {
-        100%;
-    }
     .team > div {
         width: 80%;
         margin: 1vw;
