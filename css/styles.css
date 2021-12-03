@@ -430,6 +430,31 @@ tr:nth-child(even) {
     text-decoration: underline;
     cursor: pointer;
 }
+.sponsors-plat   {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    padding-bottom: 5vh;
+}
+.sponsors-plat > li {
+    padding: .8vh 1vw;
+    flex-basis: 25%;
+}
+.sponsors-plat a:hover {
+    cursor: pointer;
+}
+.sponsors-plat img:hover {
+    cursor: pointer;
+}
+.sponsors-plat img {
+    height: 25%;
+    width: 25%;
+}
+#sponsors-plat-label {
+    color: lightskyblue;
+}
 .sponsors-gold   {
     text-align: center;
     justify-content: center;
@@ -449,12 +474,11 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 .sponsors-gold img {
-    height: 10%;
-    width: 10%;
+    height: 15%;
+    width: 15%;
 }
-.sponsors-h2 {
+#sponsor-gold-label  {
     color: gold;
-
 }
 .sponsors-silver   {
     text-align: center;
@@ -505,6 +529,9 @@ tr:nth-child(even) {
 }
 .sponsors-label{
   padding-top: 0%;
+}
+#sponsors-bronze-label {
+    color: #a97142;
 }
 .schedule   {
     width: 100%;
@@ -662,6 +689,16 @@ tr, th, td  {
         justify-content: center;
         width: 100%;
     }
+    .sponsors-plat img   {
+        width: 100%;
+    }
+    .sponsors-plat {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    
     .sponsors-gold img   {
         width: 100%;
     }
