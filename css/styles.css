@@ -449,8 +449,13 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 .sponsors-plat img {
+<<<<<<< Updated upstream
     height: 50%;
     width: 50%;
+=======
+    height: 75%;
+    width: 75%;
+>>>>>>> Stashed changes
 }
 #sponsors-plat-label {
     color: lightskyblue;
@@ -474,8 +479,13 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 .sponsors-gold img {
+<<<<<<< Updated upstream
     height: 20%;
     width: 20%;
+=======
+    height: 25%;
+    width: 25%;
+>>>>>>> Stashed changes
 }
 #sponsor-gold-label  {
     color: gold;
@@ -521,7 +531,7 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 .sponsors-bronze img {
-    height: 15%;
+    height: auto;
     width: 15%;
     margin-left: 20px;
     margin-right: 20px;
