@@ -1,2 +1,2 @@
-# QuHacks-2021-Website
-The website for QuHacks 2021.
+# QuHacks-2022-Website
+The website for QuHacks 2022.
