@@ -21,9 +21,9 @@
                 <li><a href="#sponsors" id="sponsors-button">Sponsors</a></li>
                 <li><a href="#team" id="team-button">Team</a></li>
 
-                <!-- TODO: Update links to registration and discord when ready -->
-                <li class="nav-reg"><a href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank" id="register-button-nav">Register</a></li>
-                <li class="nav-reg"><a href="https://discord.gg/Fh3Kz6fTth" target="_blank" id="discord-button-nav">Discord Server</a></li>
+                <!-- TODO: Update links to registration and discord when ready and remove disabled class-->
+                <li class="nav-reg disabled"><a class="disabled" href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank" id="register-button-nav">Register (Coming soon)</a></li>
+                <li class="nav-reg disabled"><a class="disabled" href="https://discord.gg/Fh3Kz6fTth" target="_blank" id="discord-button-nav">Discord Server (Coming soon)</a></li>
             </ul>
         </nav>
         <header id="header">
@@ -31,9 +31,10 @@
             <ul class="main-container flexbox">
                 <li class="flex-img"><img src="media/quhacks-2021-logo.png" class="logo-normal"></li>
                 <li class="flex-info">
-                    <p>December 10th, 2022</p><a href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank"
-                        class="button" id="register-button-header">Register</a><a href="https://discord.gg/Fh3Kz6fTth" target="_blank" class="button" id="discord-button-header">Discord
-                        Server</a>
+                    <p>December 10th, 2022</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank"
+                        class="button disabled" id="register-button-header">Register (Coming soon)</a>
+                    <a href="https://discord.gg/Fh3Kz6fTth" target="_blank" class="button disabled" id="discord-button-header">Discord Server (Coming soon)</a>
                 </li>
             </ul>
         </header>
@@ -54,115 +55,8 @@
             <hr class="body-border">
             <div class="schedule" id="schedule">
                 <h1 class="section-heading" id="schedule-heading">Schedule</h1>
-                <h1 class="sponsors-label sponsors-h2" id="schedule-header-main">Main Agenda</h1>
-                <div class="scroll-wrapper">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th class="table_heading" scope="col">Time (EST)</th>
-                                <th class="table_heading" scope="col">Agenda</th>
-                                <th class="table_heading" scope="col">Main Room</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                <tr>
-                                    <th scope="row">9:00-9:30AM</th>
-                                    <td>Welcome Ceremony</td>
-                                    <td>Welcome Ceremony</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">10:00-11:00AM</th>
-                                    <td>Workshops Round 1</td>
-                                    <td>Coding!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">11:00AM-12:00PM</th>
-                                    <td>Workshops Round 2</td>
-                                    <td>Coding!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">12:00-1:00PM</th>
-                                    <td>Workshops Round 3</td>
-                                    <td>Coding!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1:00-2:00PM</th>
-                                    <td>Lunch Break</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2:00-3:00PM</th>
-                                    <td>Event</td>
-                                    <td>Alumni Discussion Panel</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3:00-4:00PM</th>
-                                    <td>Work Time</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4:00-7:00PM</th>
-                                    <td>Work Time</td>
-                                    <td>Coding; submissions due 7PM sharp!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">7:00-9:00PM</th>
-                                    <td>Judging</td>
-                                    <td>TypeRacer tournament!!!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">9:00-9:30PM</th>
-                                    <td>Awards and Closing Ceremony</td>
-                                    <td>Awards and Closing Ceremony!</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                </div>
-                <h1 class="sponsors-label sponsors-h2" id="schedule-header-breakout">Breakout Room Agenda</h1>
-                <div class="scroll-wrapper">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th class="table_heading" scope="col">Time (EST)</th>
-                                <th class="table_heading" scope="col">Room 1</th>
-                                <th class="table_heading" scope="col">Room 2</th>
-                                <th class="table_heading" scope="col">Room 3</th>
-                                <th class="table_heading" scope="col">Room 4</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                <tr>
-                                    <th scope="row">10:00-11:00AM</th>
-                                    <td>Python CLI Project</td>
-                                    <td>Web Development</td>
-                                    <td>Java</td>
-                                    <td>Algorithms</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">11:00AM-12:00PM</th>
-                                    <td>Python CLI Project</td>
-                                    <td>Java</td>
-                                    <td>Artificial Intelligence</td>
-                                    <td>Algorithms</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">12:00-1:00PM</th>
-                                    <td>Python CLI Project</td>
-                                    <td>Web Development</td>
-                                    <td>Artificial Intelligence</td>
-                                    <td>Java</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">7:00-9:00PM</th>
-                                    <td>Judging</td>
-                                    <td>Judging</td>
-                                    <td>Judging</td>
-                                    <td>CLI Project Judging</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                </div>
-            </div>
+                <h1 class="sponsors-label sponsors-h2" id="schedule-header-main">To be announced...</h1>
+                
             <hr class="body-border">
             <div class="faq-container" id="faq">
                 <h1 class="section-heading" id="faq-heading">FAQs</h1>
@@ -225,7 +119,7 @@
             </div>
             <hr class="body-border">
             <div id="sponsors" class="sponsors-container">
-                <h1 class="section-heading" id="sponsors-heading">Sponsors</h1>
+                <h1 class="section-heading" id="sponsors-heading">Last Year's Sponsors</h1>
                 <h1 class = "sponsors-label sponsors-h2" id="sponsors-plat-label">Platinum Sponsors</h1>
                 <ul class="sponsors-plat">
                     <li><a href="https://www.bitrise.io/" target="_blank"><img src="media/sponsors/bitrise.png"></a></li>
