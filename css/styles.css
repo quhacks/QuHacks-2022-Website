@@ -1,19 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-/*2021 Hex Codes:
-#2c292d
-#413d43
-#ff6188
-#fc9867
-#ffd866
-#a9dc76
-#78dce8
-#ab9df2
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+/*2022 Hex Codes:
+White: #FFF0EA
+Red: #EB677B
+Orange: #F79586
+Yellow: #FAC3A2
+Blue: #86A8BD
+Green: #4F7C8F
+Background (Dark blue): #332557
+Darker blue: #22193a
+Shadow (Darkest blue): #160f27
 */
 html {
     height: 100%;
 }
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'VT323', monospace;
     margin: 0;
     /* Gross and dirty way to fix the bug that causes a sliver of pixels to the right (causing horizontal scroll bar to appear) */
     /* overflow-x: hidden; */
@@ -51,7 +52,8 @@ nav {
     width: 100%;
 }
 nav > p {
-    font-size: 3.7vh;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5vh;
     right: 4vw;
     /* Next 5 lines center "HocoHacks" in the nav */
     margin: 0;
@@ -78,7 +80,7 @@ nav > ul > li:hover {
     transition-duration: 0.5s;
 }
 nav > ul > li > a {
-    font-size: 2.5vh;
+    font-size: 3vh;
     text-decoration: none;
 }
 .navTransparent {
@@ -198,18 +200,17 @@ header {
     float: right;
 }
 header p {
-    font-size: 5.7vh;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.5vh;
     color: white;
 }
 #register-button-header{
-
-
-  transition-duration: 0.5s;
+    font-size: 4vh;
+    transition-duration: 0.5s;
 }
 #discord-button-header{
-
-
-  transition-duration: 0.5s;
+    font-size: 4vh;
+    transition-duration: 0.5s;
 }
 .main-container {
     padding-top: 3vh;
@@ -235,12 +236,13 @@ header p {
     color: #ffa31d;
 }
 h1 {
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
-    font-size: 5vh;
+    font-size: 3vh;
     padding-top: 3.5%;
 }
 p {
-    font-size: 2.75vh;
+    font-size: 3.5vh;
     color: white;
 }
 table {
@@ -354,21 +356,20 @@ tr:nth-child(even) {
     width: 70%;
 }
 .team > div > h2 {
-    font-size: 3vh;
+    font-size: 3.8vh;
 }
 .team > div > p {
-    font-size: 2.4vh;
+    font-size: 2.8vh;
     color: white;
 }
 .faq-container > h1 {
     width: 100%;
 }
 .faq > div {
-    font-size: 1.5vw;
     padding: .5vw;
 }
 .faq > div > p {
-    font-size: 1.25vw;
+    font-size: 1.5vw;
 }
 .faq {
 	display: block;
@@ -383,6 +384,7 @@ tr:nth-child(even) {
     padding-bottom: 5vh;
 }
 .accordion {
+    font-family: 'VT323', monospace;
     margin-top: 0vh;
     background-color: #413d43;
     color: #FFFFFF;
@@ -392,7 +394,7 @@ tr:nth-child(even) {
     width: 100%;
     border: none;
     text-align: left;
-    font-size: 120%;
+    font-size: 200%;
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
     transition: 0.4s;
@@ -546,13 +548,13 @@ tr:nth-child(even) {
     margin-right: auto;
     margin-bottom: 5vh;
     text-align: left;
-    font-size: 20px;
+    font-size: 37px;
     border: none;
     border-collapse: collapse;
     background-color: #C3CBFE;
 }
 td  {
-    padding: 2vh 2vw;
+    padding: 2vh 1.5vw;
 }
 tr, th, td  {
     border: none;
@@ -563,7 +565,8 @@ tr, th, td  {
     padding: 1vh 2vw;
 }
 .section-heading {
-    font-size: 8vh;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5vh;
 }
 #about-heading {
   color: #ffd866;
