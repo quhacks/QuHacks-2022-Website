@@ -6,14 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>QuHacks 2022</title>
         <!-- Needed? type="image/icon" -->
-        <link rel="icon" href="media/quhacks-2021-logo.png">
+        <link rel="icon" href="media/quhacks-2022-logo.png">
         <link rel="stylesheet" href="css/styles.css">
         <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
     </head>
     <!-- Are these next 2 lines necessary? -->
     <body>
         <nav class="navTransparent">
-        <p><a href="#header">QuHacks 2022</a></p>
+        <p><a href="#header">> QuHacks 2022<span id="blink">|</span></a></p>
             <ul>
                 <li><a href="#about" id="about-button">About</a></li>
                 <li><a href="#schedule" id="schedule-button">Schedule</a></li>
@@ -29,7 +29,7 @@
         <header id="header">
             <!-- Logo is just a png and does not scale; background removal elementary -->
             <ul class="main-container flexbox">
-                <li class="flex-img"><img src="media/quhacks-2021-logo.png" class="logo-normal"></li>
+                <li class="flex-img"><img src="media/quhacks-2022-logo.png" class="logo-normal"></li>
                 <li class="flex-info">
                     <p>December 10th, 2022</p>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank"
@@ -44,7 +44,7 @@
                 <ul class="about-content flexbox">
                     <li class="flex-img about-img"><img src="media/stickers.JPG"></li>
                     <li class="flex-info">
-                        <p>QuHacks is a day-long hackathon by students, for students. Join us for a day of creation, innovation, and fun
+                        <p>> QuHacks is a day-long hackathon by students, for students. Join us for a day of creation, innovation, and fun
                             with fellow middle and high schoolers interested in coding. From seasoned coding veterans to first-time
                             programmers, all are welcome to join. This year, QuHacks will be held in person for the first time in 2 years!<br><br>Discover your ability to create change by developing
                             technology to solve real-world problems, attend workshops, and meet some new friends. We can't wait to see you
@@ -55,21 +55,21 @@
             <hr class="body-border">
             <div class="schedule" id="schedule">
                 <h1 class="section-heading" id="schedule-heading">Schedule</h1>
-                <h1 class="sponsors-label sponsors-h2" id="schedule-header-main">To be announced...</h1>
-                
+                <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
+                <h1 class="sponsors-label sponsors-h2" id="schedule-header-main">> To be announced...</h1>
             <hr class="body-border">
             <div class="faq-container" id="faq">
                 <h1 class="section-heading" id="faq-heading">FAQs</h1>
                 <div class="faq">
-                    <button class="accordion">What is a Hackathon?</button>
+                    <button class="accordion">> What is a Hackathon?</button>
                     <div class="panel">
                         <p>A hackathon is a coding marathon - it's like a real-time programming fair where students develop an idea and bring it to life through code. A project could be a game, website, app, robot, Arduino project, whatever! If you enjoy programming or technology in general, hackathons are great places to meet friendly, like-minded people.</p>
                     </div>
-                    <button class="accordion">Do I need to know how to code?</button>
+                    <button class="accordion">> Do I need to know how to code?</button>
                     <div class="panel">
                         <p>No, you don't! Even if you aren't able to code beforehand, you can attend workshops, learn some code, and still submit a project. We will have both a beginner division (set up specifically for those new to coding) and a main project division.</p>
                     </div>
-                    <button class="accordion">Who can attend?</button>
+                    <button class="accordion">> Who can attend?</button>
                     <div class="panel">
                         <p>You are eligible to participate in QuHacks 2022 if you currently attend school (middle or high school) in Maryland,
                             Pennsylvania, Delaware, West Virginia, Virginia, or DC, and reside in one of those states (or DC). If you have
@@ -77,17 +77,17 @@
                             for the event! Send us an email at <a class="faq-a-email"href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a> for more information
                             on contributing to QuHacks, or if you have any questions about our eligibility requirements.</p>
                     </div>
-                    <button class="accordion">How much does QuHacks cost?</button>
+                    <button class="accordion">> How much does QuHacks cost?</button>
                     <div class="panel">
                         <p>Nothing! This event is entirely free of charge, thanks to our awesome sponsors. If you're interested in becoming a sponsor, please email us at <a class="faq-a-email"href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a>.</p>
                     </div>
-                    <button class="accordion">Can I win any prizes?</button>
+                    <button class="accordion">> Can I win any prizes?</button>
                     <div class="panel">
                          <p>But of course! Prize information will be anounced closer to the event. </p>
                     </div>
                 </div>
                 <div class="faq">
-                    <button class="accordion">What do I need to compete?</button>
+                    <button class="accordion">> What do I need to compete?</button>
                     <div class="panel">
                         <p> The only thing you need is a device that can connect to the
                             internet, and any materials needed for creating your hack! </p>
@@ -103,24 +103,25 @@
                             happening when.</p>
                     </div>
                   -->
-                    <button class="accordion">Can I use past projects?</button>
+                    <button class="accordion">> Can I use past projects?</button>
                     <div class="panel">
                         <p>Anyone caught working on past projects will be forced to sit in the corner and wear the dunce hat. Seriously though, don't be that one person.</p>
                     </div>
-                    <button class="accordion">What if I don't have a team?</button>
+                    <button class="accordion">> What if I don't have a team?</button>
                     <div class="panel">
                         <p>No problem! Many participants sign up without a team, and you can meet and work with new people. You can also choose to work alone. The limit is 5 people per team.</p>
                     </div>
-                    <button class="accordion">Who's Freddy?</button>
+                    <button class="accordion">> Who's Freddy?</button>
                     <div class="panel">
-                        <p>At some point, Freddy had a cheesy description here. However, we can't seem to decide what Freddy is, so we'll just say he's that one duck you keep seeing around  of this website.</p>
+                        <p>> At some point, Freddy had a cheesy description here. However, we can't seem to decide what Freddy is, so we'll just say he's that one duck you keep seeing around  of this website.</p>
                     </div>
                 </div>
             </div>
             <hr class="body-border">
             <div id="sponsors" class="sponsors-container">
                 <h1 class="section-heading" id="sponsors-heading">Last Year's Sponsors</h1>
-                <p> Interested in sponsoring this year? <a class="faq-a-email" href="mailto:freddy@quhacks.tech">Send us an email!</a></p>
+                <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
+                <p> > Interested in sponsoring this year? <a class="faq-a-email" href="mailto:freddy@quhacks.tech">Send us an email!</a></p>
                 <h1 class = "sponsors-label sponsors-h2" id="sponsors-plat-label">Platinum Sponsors</h1>
                 <ul class="sponsors-plat">
                     <li><a href="https://www.bitrise.io/" target="_blank"><img src="media/sponsors/bitrise.png"></a></li>
@@ -155,6 +156,7 @@
             <hr class="body-border">
             <div id="team">
                 <h1 class="section-heading" id="team-heading">Our Team</h1>
+                <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
                 <div class="team">
                     <div><img src="media/team/annaheadshot.jpg" /><h2 id="h2-Anna">Anna Han<br>Director</h2><p>Anna is a senior at Marriotts Ridge High School, where she is involved with She++, speech, and FBLA. Outside of school, she is part of the HopeWorks Youth Leadership Program, the JHU APL STEM Academy/ASPIRE program, and Howard County Sources of Strength. In her free time, Anna loves spending time with her family and playing the piano, violin, viola, and guitar.</p></div>
 

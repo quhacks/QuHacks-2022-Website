@@ -62,6 +62,13 @@ nav > p {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    line-height: 1;
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+    letter-spacing: 0.125em;
+    animation-duration: 0.01s;
+    animation-name: textflicker;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 nav > ul {
     display: inline-block;
@@ -202,8 +209,17 @@ header {
 }
 header p {
     font-family: 'Press Start 2P', cursive;
-    font-size: 3.5vh;
+    font-size: 3.2vh;
     color: #FFF0EA;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    line-height: 1;
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+    letter-spacing: 0.125em;
+    animation-duration: 0.01s;
+    animation-name: textflicker;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 #register-button-header{
     font-size: 4vh;
@@ -281,6 +297,7 @@ tr:nth-child(even) {
 }
 #schedule-header-main{
   color: #FAC3A2;
+  padding-bottom: 5vh;
 }
 #schedule-header-breakout{
   color: #EB677B;
@@ -567,6 +584,13 @@ tr, th, td  {
 .section-heading {
     font-family: 'Press Start 2P', cursive;
     font-size: 5vh;
+    line-height: 1;
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+    letter-spacing: 0.125em;
+    animation-duration: 0.01s;
+    animation-name: textflicker;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 #about-heading {
   color: #EB677B;
@@ -849,6 +873,16 @@ nav a:hover{
     animation-timing-function: none;
     cursor: pointer;
 }
+#blink {
+    animation: blink 0.4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: none;
+}
+@keyframes blink {
+    from {opacity:0};
+    to {opacity:1};
+}
 .button:hover, button:hover {
     box-shadow: 0.4rem 0.4rem 0 #160f27;
     transform: translate(-0.4rem, -0.4rem);
@@ -857,14 +891,36 @@ nav a:hover{
     box-shadow: 0 0 0 #160f27;
     transform: translate(0, 0);
 }
-@keyframes blink {
-    from {opacity:0};
-    to {opacity:1};
-}
 .disabled {
     color: white;
     cursor: not-allowed;
     opacity: 0.75;
     text-decoration: none;
     pointer-events: none;
+}
+@keyframes textflicker {
+    from {
+      text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    to {
+      text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+}
+#colorsquare1 {
+    background-color:#EB677B;
+    color:#EB677B;
+}
+#colorsquare2 {
+    background-color:#86A8BD;
+    color:#86A8BD;
+}
+#colorsquare3 {
+    background-color:#FAC3A2;
+    color:#FAC3A2;
+}
+#colorsquare1, #colorsquare2, #colorsquare3 {
+    width:30px;
+    height:30px;
+    padding-left: 9px;
+    margin: 5px 5px;
 }
