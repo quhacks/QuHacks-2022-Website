@@ -24,9 +24,9 @@ ul  {
 }
 
 .button {
-  background-color: #2c292d;
+  background-color: #22193a;
   border: none;
-  color: #FFFFFF;
+  color: #FFF0EA;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -34,7 +34,7 @@ ul  {
   font-size: 24px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 6px;
 }
 
 .background {
@@ -87,71 +87,72 @@ nav > ul > li > a {
     transition-duration: 0.5s;
     background-color: transparent;
 }
+
 .navTransparent > ul > li:hover, .navTransparent > ul > li.nav-reg {
     transition-duration: 0.5s;
-    border: 1px solid #ffffff;
+    border: 1px solid #FFF0EA;
 }
 .navTransparent > ul > li > a {
     transition-duration: 0.5s;
 }
 .navTransparent > p {
     transition-duration: 0.5s;
-    color: white;
+    color: #FFF0EA;
 }
 .navColor {
     transition-duration: 0.5s;
-    background-color: #2c292d;
+    background-color: #22193a;
 }
 .navColor > ul > li:hover, .navColor > ul > li.nav-reg {
     transition-duration: 0.5s;
-    border: 1px solid #413d43;
+    border: 1px solid #FFF0EA;
 }
 .navColor > ul > li > a {
     transition-duration: 0.5s;
 }
 .navColor > ul > li > #about-button {
-  color: #ffd866;
+  color: #EB677B;
 }
 .navColor > ul > li > #schedule-button {
-  color: #78dce8;
+  color: #86A8BD;
 }
 .navColor > ul > li > #faq-button {
-  color: #a9dc76;
+  color: #FAC3A2;
 }
 .navColor > ul > li > #sponsors-button {
-  color: #ab9df2;
+  color: #F79586;
 }
 .navColor > ul > li > #team-button {
-  color: #ff6188;
+  color: #4F7C8F;
 }
 .navColor > ul > li > #register-button-nav {
-  color: #fc9867;
+  color: #EB677B;
 }
 .navColor > ul > li > #discord-button-nav {
-  color: #ffd866;
+  color: #86A8BD;
 }
 .navColor > p {
     transition-duration: 0.5s;
-    color: white;
+    color: #FFF0EA;
 }
 .footer-white > a > span{
   transition-duration: 0.5s;
-  color: white;
+  color: #FFF0EA;
 }
 .footer-colored > a > span{
   transition-duration: 0.5s;
 }
 .footer-colored > #footer-envelope > span{
-  color: #ffd866;
+  color: #EB677B;
 }
 .footer-colored > #footer-github > span{
-  color: #fc9867;
+  color: #86A8BD;
 }
 .footer-colored > #footer-twitter > span{
-  color: #78dce8;
+  color: #FAC3A2;
 }
 .footer-colored > #footer-instagram > span{
-  color: #ff6188;
+  color: #F79586;
 }
 footer {
     /*margin: 3vh 2vw;*/
@@ -185,10 +186,9 @@ footer > a > img {
 .flex-info > a {
   margin-right: 10px
 }
-
 header {
     width: 100%;
-    background: linear-gradient(#2c292d00,#2c292dFF), url('../media/old_header.jpg');
+    background: linear-gradient(#2c292d00,#332557), url('../media/old_header.jpg');
     background-attachment: scroll;
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -202,7 +202,7 @@ header {
 header p {
     font-family: 'Press Start 2P', cursive;
     font-size: 3.5vh;
-    color: white;
+    color: #FFF0EA;
 }
 #register-button-header{
     font-size: 4vh;
@@ -230,10 +230,10 @@ header p {
     padding-bottom: 3.5%;
 }
 .colored   {
-    background-color: #2c292d;
+    background-color: #332557;
 }
 .colored > h1   {
-    color: #ffa31d;
+    color: #F79586;
 }
 h1 {
     font-family: 'Press Start 2P', cursive;
@@ -243,22 +243,22 @@ h1 {
 }
 p {
     font-size: 3.5vh;
-    color: white;
+    color: #FFF0EA;
 }
 table {
     margin: auto;
     font-size: 1.15vw;
-    color: white;
+    color: #FFF0EA;
     border: none;
     width: 100%;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #FFF0EA;
     text-align: left;
     padding: .5vw;
 }
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #FFF0EA;
 }
 .about-content  {
     width: 95%;
@@ -279,10 +279,10 @@ tr:nth-child(even) {
     width: 40%;
 }
 #schedule-header-main{
-  color: #ab9df2;
+  color: #FAC3A2;
 }
 #schedule-header-breakout{
-  color: #ff6188;
+  color: #EB677B;
 }
 .team {
     margin-top: 6vh;
@@ -298,52 +298,52 @@ tr:nth-child(even) {
     text-align: center;
 }
 .team a:link{
-	color: white;
+	color: #FFF0EA;
 }
 #h2-Anna{
-  color: #ffd866;
+  color: #EB677B;
 }
 #h2-Ryan{
-  color: #78dce8;
+  color: #86A8BD;
 }
 #h2-Jesse{
-  color: #a9dc76;
+  color: #FAC3A2;
 }
 #h2-Jeffrey{
-  color: #ab9df2;
+  color: #F79586;
 }
 #h2-Nicole{
-  color: #ff6188;
+  color: #4F7C8F;
 }
 #h2-Laura{
-  color: #fc9867;
+  color: #EB677B;
 }
 #h2-Akshay{
-  color: #ffd866;
+  color: #86A8BD;
 }
 #h2-Austin{
-  color: #78dce8;
+  color: #FAC3A2;
 }
 #h2-Sophia{
-  color: #a9dc76;
+  color: #F79586;
 }
 #h2-Anurag{
-  color: #ab9df2;
+  color: #4F7C8F;
 }
 #h2-Arjav{
-  color: #ff6188;
+  color: #EB677B;
 }
 #h2-Daeyong{
-  color: #fc9867;
+  color: #86A8BD;
 }
 #h2-Julian{
-  color: #ffd866;
+  color: #FAC3A2;
 }
 #h2-Lucas{
-  color: #78dce8;
+  color: #F79586;
 }
 .team a:visited{
-	color: white;
+	color: #FFF0EA;
 }
 .team > div {
     width: 20vw;
@@ -360,7 +360,7 @@ tr:nth-child(even) {
 }
 .team > div > p {
     font-size: 2.8vh;
-    color: white;
+    color: #FFF0EA;
 }
 .faq-container > h1 {
     width: 100%;
@@ -386,11 +386,11 @@ tr:nth-child(even) {
 .accordion {
     font-family: 'VT323', monospace;
     margin-top: 0vh;
-    background-color: #413d43;
-    color: #FFFFFF;
+    background-color: #22193a;
+    color: #FAC3A2;
     cursor: pointer;
     padding: 18px;
-    border-radius: 15px;
+    border-radius: 6px;
     width: 100%;
     border: none;
     text-align: left;
@@ -401,8 +401,7 @@ tr:nth-child(even) {
     font-weight:500;
 }
 .active, .accordion:hover {
-    background-color: #a9dc76;
-    color: white;
+    color: #86A8BD;
 }
 .accordion:after {
     font-weight: bold;
@@ -411,10 +410,10 @@ tr:nth-child(even) {
 }
 .active:after{
     content: "\2212";
-    color: #ffffff;
+    color: #FFF0EA;
 }
 .panel{
-    background-color: #2c292d;
+    background-color: #332557;
     max-height: 0;
     overflow: hidden;
     -webkit-transition: max-height 0.2s ease-out;
@@ -423,10 +422,10 @@ tr:nth-child(even) {
     font-weight:300;
 }
 .faq-a-email{
-  color: #ffd866;
+  color: #F79586;
 }
 #faq-a-schedule{
-  color:#78dce8;
+  color: #86A8BD;
 }
 .panel a{
     text-decoration: none;
@@ -458,7 +457,7 @@ tr:nth-child(even) {
     width: 50%;
 }
 #sponsors-plat-label {
-    color: lightskyblue;
+    color: rgb(189, 184, 233);
 }
 .sponsors-gold   {
     text-align: center;
@@ -483,7 +482,7 @@ tr:nth-child(even) {
     width: 20%;
 }
 #sponsor-gold-label  {
-    color: gold;
+    color: rgb(243, 179, 60);
 }
 .sponsors-silver   {
     text-align: center;
@@ -536,7 +535,7 @@ tr:nth-child(even) {
   padding-top: 0%;
 }
 #sponsors-bronze-label {
-    color: #a97142;
+    color: #c58753;
 }
 .schedule   {
     width: 100%;
@@ -551,17 +550,17 @@ tr:nth-child(even) {
     font-size: 37px;
     border: none;
     border-collapse: collapse;
-    background-color: #C3CBFE;
+    background-color: #FFF0EA;
 }
 td  {
     padding: 2vh 1.5vw;
 }
 tr, th, td  {
     border: none;
-    background-color: #2c292d;
+    background-color: #332557;
 }
 .table_heading  {
-    border-bottom: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFF0EA;
     padding: 1vh 2vw;
 }
 .section-heading {
@@ -569,38 +568,36 @@ tr, th, td  {
     font-size: 5vh;
 }
 #about-heading {
-  color: #ffd866;
+  color: #EB677B;
 }
 #schedule-heading {
-  color: #78dce8;
+  color: #86A8BD;
 }
 #faq-heading {
-  color: #a9dc76;
+  color: #FAC3A2;
 }
 #sponsors-heading {
-  color: #ab9df2;
+  color: #F79586;
 }
 #team-heading {
-  color: #ff6188;
+  color: #4F7C8F;
 }
 .fab, .fas {
-    color: white;
+    color: #FFF0EA;
 }
 
 .body-border {
   border-width: 2px;
   width: 90%;
-  border-color: #FFFFFF;
+  border-color: #FFF0EA;
 }
-
 .colored > .sponsors-h2{
-  color: #ffbc5a;
+  color: #FAC3A2;
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
    header {
         width: 100%;
-        background: linear-gradient(#2c292d44, #2c292dFF), url('../media/old_header.jpg');
+        background: linear-gradient(#2c292d44, #332557), url('../media/old_header.jpg');
         background-attachment: scroll;
         background-position: left bottom;
         background-repeat: no-repeat;
@@ -677,7 +674,7 @@ tr, th, td  {
     }
     p {
         font-size: 3vh;
-        color: white;
+        color: #FFF0EA;
     }
     .about-img  {
         width: 100%;
@@ -733,7 +730,7 @@ tr, th, td  {
     }
     header {
         width: 100%;
-        background: linear-gradient(#2c292d44, #2c292dFF), url('../media/old_header.jpg');
+        background: linear-gradient(#2c292d44, #332557), url('../media/old_header.jpg');
         background-attachment: scroll;
         background-position: left bottom;
         background-repeat: no-repeat;
@@ -811,7 +808,7 @@ tr, th, td  {
     }
     p {
         font-size: 3vh;
-        color: white;
+        color: #FFF0EA;
     }
     .about-img  {
         width: 100%;
@@ -839,12 +836,27 @@ tr, th, td  {
 
 nav a:link{
     text-decoration: none;
-    color: white;
+    color: #FFF0EA;
 }
 nav a:visited{
-    color: white;
+    color: #FFF0EA;
 }
 nav a:hover{
-    text-decoration: underline;
+    animation: blink 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: none;
     cursor: pointer;
+}
+.button:hover, button:hover {
+    box-shadow: 0.4rem 0.4rem 0 #160f27;
+    transform: translate(-0.4rem, -0.4rem);
+}
+.button:active, button:active {
+    box-shadow: 0 0 0 #160f27;
+    transform: translate(0, 0);
+}
+@keyframes blink {
+    from {opacity:0};
+    to {opacity:1};
 }
