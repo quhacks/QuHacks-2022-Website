@@ -9,16 +9,16 @@ $(document).ready(function (){
         if(scroll > 100){
             $("nav").removeClass("navTransparent");
             $("nav").addClass("navColor");
-            $("#register-button-header").css("color", "#fc9867");
-            $("#discord-button-header").css("color", "#ffd866");
+            $("#register-button-header").css("color", "#EB677B");
+            $("#discord-button-header").css("color", "#86A8BD");
             $("footer").removeClass("footer-white");
             $("footer").addClass("footer-colored");
         }
         else{
             $("nav").removeClass("navColor");
             $("nav").addClass("navTransparent");
-            $("#register-button-header").css("color", "#ffffff");
-            $("#discord-button-header").css("color", "#ffffff");
+            $("#register-button-header").css("color", "#FFF0EA");
+            $("#discord-button-header").css("color", "#FFF0EA");
             $("footer").removeClass("footer-colored");
             $("footer").addClass("footer-white");
         }

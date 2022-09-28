@@ -4,203 +4,100 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>QuHacks 2021</title>
+        <title>QuHacks 2022</title>
         <!-- Needed? type="image/icon" -->
-        <link rel="icon" href="media/quhacks-2021-logo.png">
+        <link rel="icon" href="media/quhacks-2022-logo.png">
         <link rel="stylesheet" href="css/styles.css">
         <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
     </head>
     <!-- Are these next 2 lines necessary? -->
     <body>
         <nav class="navTransparent">
-        <p><a href="#header">QuHacks 2021</a></p>
+        <p><a href="#header">> QuHacks 2022<span id="blink">|</span></a></p>
             <ul>
                 <li><a href="#about" id="about-button">About</a></li>
                 <li><a href="#schedule" id="schedule-button">Schedule</a></li>
                 <li><a href="#faq" id="faq-button">FAQs</a></li>
                 <li><a href="#sponsors" id="sponsors-button">Sponsors</a></li>
                 <li><a href="#team" id="team-button">Team</a></li>
-                <li class="nav-reg"><a href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank" id="register-button-nav">Register</a></li>
-                <li class="nav-reg"><a href="https://discord.gg/Fh3Kz6fTth" target="_blank" id="discord-button-nav">Discord Server</a></li>
+
+                <!-- TODO: Update links to registration and discord when ready and remove disabled class-->
+                <li class="nav-reg disabled"><a class="disabled" href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank" id="register-button-nav">Register (Coming soon)</a></li>
+                <li class="nav-reg disabled"><a class="disabled" href="https://discord.gg/Fh3Kz6fTth" target="_blank" id="discord-button-nav">Discord Server (Coming soon)</a></li>
             </ul>
         </nav>
         <header id="header">
             <!-- Logo is just a png and does not scale; background removal elementary -->
             <ul class="main-container flexbox">
-                <li class="flex-img"><img src="media/quhacks-2021-logo.png" class="logo-normal"></li>
+                <li class="flex-img"><img src="media/quhacks-2022-logo.png" class="logo-normal"></li>
                 <li class="flex-info">
-                    <p>December 18th, 2021</p><a href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank"
-                        class="button" id="register-button-header">Register</a><a href="https://discord.gg/Fh3Kz6fTth" target="_blank" class="button" id="discord-button-header">Discord
-                        Server</a>
+                    <p>December 10th, 2022</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSclxUEQ1Y-bMTVG78PDPHqXHdawGo1Srcc5bw1Rfjqoymd4nw/viewform?usp=sf_link" target="_blank"
+                        class="button disabled" id="register-button-header">Register (Coming soon)</a>
+                    <a href="https://discord.gg/Fh3Kz6fTth" target="_blank" class="button disabled" id="discord-button-header">Discord Server (Coming soon)</a>
                 </li>
             </ul>
         </header>
         <div class="body-container colored">
-            <div id="about">
+            <div id="about"><br>
                 <h1 class="section-heading" id="about-heading">About</h1>
                 <ul class="about-content flexbox">
                     <li class="flex-img about-img"><img src="media/stickers.JPG"></li>
                     <li class="flex-info">
-                        <p>QuHacks is a day-long hackathon by students, for students. Join us for a day of creation, innovation, and fun
-                            with fellow middle and high schoolers interested in coding. From seasoned coding veterans to first-time
-                            programmers, all are welcome to join. This year, QuHacks will be held virtually (team size of up to 5).<br><br>Discover your ability to create change by developing
-                            technology to solve real-world problems, attend workshops, and meet some new friends. We can't wait to see you
-                            there!</p>
+                        <div id = "blackbox">
+                            <p>> QuHacks is a day-long hackathon by students, for students. Join us for a day of creation, innovation, and fun
+                                with fellow middle and high schoolers interested in coding. From seasoned coding veterans to first-time
+                                programmers, all are welcome to join. This year, QuHacks will be held in person for the first time in 2 years!<br><br>Discover your ability to create change by developing
+                                technology to solve real-world problems, attend workshops, and meet some new friends. We can't wait to see you
+                                there!</p>
+                        </div>
                     </li>
                 </ul>
             </div>
             <hr class="body-border">
-            <div class="schedule" id="schedule">
+            <div class="schedule" id="schedule"><br>
                 <h1 class="section-heading" id="schedule-heading">Schedule</h1>
-                <h1 class="sponsors-label sponsors-h2" id="schedule-header-main">Main Agenda</h1>
-                <div class="scroll-wrapper">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th class="table_heading" scope="col">Time (EST)</th>
-                                <th class="table_heading" scope="col">Agenda</th>
-                                <th class="table_heading" scope="col">Main Room</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                <tr>
-                                    <th scope="row">9:00-9:30AM</th>
-                                    <td>Welcome Ceremony</td>
-                                    <td>Welcome Ceremony</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">10:00-11:00AM</th>
-                                    <td>Workshops Round 1</td>
-                                    <td>Coding!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">11:00AM-12:00PM</th>
-                                    <td>Workshops Round 2</td>
-                                    <td>Coding!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">12:00-1:00PM</th>
-                                    <td>Workshops Round 3</td>
-                                    <td>Coding!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">1:00-2:00PM</th>
-                                    <td>Lunch Break</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2:00-3:00PM</th>
-                                    <td>Event</td>
-                                    <td>Alumni Discussion Panel</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3:00-4:00PM</th>
-                                    <td>Work Time</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">4:00-7:00PM</th>
-                                    <td>Work Time</td>
-                                    <td>Coding; submissions due 7PM sharp!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">7:00-9:00PM</th>
-                                    <td>Judging</td>
-                                    <td>TypeRacer tournament!!!</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">9:00-9:30PM</th>
-                                    <td>Awards and Closing Ceremony</td>
-                                    <td>Awards and Closing Ceremony!</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                </div>
-                <h1 class="sponsors-label sponsors-h2" id="schedule-header-breakout">Breakout Room Agenda</h1>
-                <div class="scroll-wrapper">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <tr>
-                                <th class="table_heading" scope="col">Time (EST)</th>
-                                <th class="table_heading" scope="col">Room 1</th>
-                                <th class="table_heading" scope="col">Room 2</th>
-                                <th class="table_heading" scope="col">Room 3</th>
-                                <th class="table_heading" scope="col">Room 4</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                                <tr>
-                                    <th scope="row">10:00-11:00AM</th>
-                                    <td>Python CLI Project</td>
-                                    <td>Web Development</td>
-                                    <td>Java</td>
-                                    <td>Algorithms</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">11:00AM-12:00PM</th>
-                                    <td>Python CLI Project</td>
-                                    <td>Java</td>
-                                    <td>Artificial Intelligence</td>
-                                    <td>Algorithms</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">12:00-1:00PM</th>
-                                    <td>Python CLI Project</td>
-                                    <td>Web Development</td>
-                                    <td>Artificial Intelligence</td>
-                                    <td>Java</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">7:00-9:00PM</th>
-                                    <td>Judging</td>
-                                    <td>Judging</td>
-                                    <td>Judging</td>
-                                    <td>CLI Project Judging</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                </div>
-            </div>
+                <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
+                <h1 class="sponsors-label sponsors-h2" id="schedule-header-main">> To be announced...</h1>
             <hr class="body-border">
             <div class="faq-container" id="faq">
                 <h1 class="section-heading" id="faq-heading">FAQs</h1>
                 <div class="faq">
-                    <button class="accordion">What is a Hackathon?</button>
+                    <button class="accordion">> What is a Hackathon?</button>
                     <div class="panel">
                         <p>A hackathon is a coding marathon - it's like a real-time programming fair where students develop an idea and bring it to life through code. A project could be a game, website, app, robot, Arduino project, whatever! If you enjoy programming or technology in general, hackathons are great places to meet friendly, like-minded people.</p>
                     </div>
-                    <button class="accordion">Do I need to know how to code?</button>
+                    <button class="accordion">> Do I need to know how to code?</button>
                     <div class="panel">
                         <p>No, you don't! Even if you aren't able to code beforehand, you can attend workshops, learn some code, and still submit a project. We will have both a beginner division (set up specifically for those new to coding) and a main project division.</p>
                     </div>
-                    <button class="accordion">Who can attend?</button>
+                    <button class="accordion">> Who can attend?</button>
                     <div class="panel">
-                        <p>You are eligible to participate in QuHacks 2021 if you currently attend school (middle or high school) in Maryland,
+                        <p>You are eligible to participate in QuHacks 2022 if you currently attend school (middle or high school) in Maryland,
                             Pennsylvania, Delaware, West Virginia, Virginia, or DC, and reside in one of those states (or DC). If you have
                             already graduated high school but would still like to attend the event, please consider volunteering or mentoring
                             for the event! Send us an email at <a class="faq-a-email"href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a> for more information
                             on contributing to QuHacks, or if you have any questions about our eligibility requirements.</p>
                     </div>
-                    <button class="accordion">How much does QuHacks cost?</button>
+                    <button class="accordion">> How much does QuHacks cost?</button>
                     <div class="panel">
                         <p>Nothing! This event is entirely free of charge, thanks to our awesome sponsors. If you're interested in becoming a sponsor, please email us at <a class="faq-a-email"href="mailto:freddy@quhacks.tech">freddy@quhacks.tech</a>.</p>
                     </div>
-                    <button class="accordion">Can I win any prizes?</button>
+                    <button class="accordion">> Can I win any prizes?</button>
                     <div class="panel">
-                         <p>But of course! We will be giving away up to $850 in prizes this year; you could win up to $50 per person on your team!<!-- You can get a sneak peek of the prizes at <a href="https://quhacks2020.devpost.com/">https://quhacks2020.devpost.com/</a>--></p>
+                         <p>But of course! Prize information will be anounced closer to the event. </p>
                     </div>
                 </div>
                 <div class="faq">
-                    <button class="accordion">What do I need to compete?</button>
+                    <button class="accordion">> What do I need to compete?</button>
                     <div class="panel">
                         <p> The only thing you need is a device that can connect to the
-                            internet, and any materials needed for creating your hack! QuHacks
-                            2021 will be held virtually, so you can join from the comfort of your own home.</p>
+                            internet, and any materials needed for creating your hack! </p>
                     </div>
-                    <button class="accordion">Wait a second, a virtual hackathon?</button>
+                    <!--<button class="accordion">Wait a second, a virtual hackathon?</button>
                     <div class="panel">
                         <p>Yes indeed! All the same parts of QuHacks you know and love will still be happening, just virtually (except for the food; we don't have that kind of technology yet, but that would be a great hackathon project if you figure it out!). We will also be opening a moderated Discord server where hackers can chat, ask questions, and receive important announcements. Check our <a id="faq-a-schedule"href="#schedule">schedule</a> for more information on what will be happening when.</p>
-                    </div>
+                    </div>-->
                     <!--<button class="accordion">Can I participate virtually?</button>
                     <div class="panel">
                         <p>Yes! QuHacks 2021 will be virtual. We will also be opening a moderated Discord server where hackers can chat, ask questions, and
@@ -208,23 +105,25 @@
                             happening when.</p>
                     </div>
                   -->
-                    <button class="accordion">Can I use past projects?</button>
+                    <button class="accordion">> Can I use past projects?</button>
                     <div class="panel">
                         <p>Anyone caught working on past projects will be forced to sit in the corner and wear the dunce hat. Seriously though, don't be that one person.</p>
                     </div>
-                    <button class="accordion">What if I don't have a team?</button>
+                    <button class="accordion">> What if I don't have a team?</button>
                     <div class="panel">
                         <p>No problem! Many participants sign up without a team, and you can meet and work with new people. You can also choose to work alone. The limit is 5 people per team.</p>
                     </div>
-                    <button class="accordion">Who's Freddy?</button>
+                    <button class="accordion">> Who's Freddy?</button>
                     <div class="panel">
-                        <p>At some point, Freddy had a cheesy description here. However, we can't seem to decide what Freddy is, so we'll just say he's that one duck you keep seeing around  of this website.</p>
+                        <p>> At some point, Freddy had a cheesy description here. However, we can't seem to decide what Freddy is, so we'll just say he's that one duck you keep seeing around  of this website.</p>
                     </div>
                 </div>
             </div>
             <hr class="body-border">
-            <div id="sponsors" class="sponsors-container">
-                <h1 class="section-heading" id="sponsors-heading">Sponsors</h1>
+            <div id="sponsors" class="sponsors-container"><br>
+                <h1 class="section-heading" id="sponsors-heading">Last Year's Sponsors</h1>
+                <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
+                <p> > Interested in sponsoring this year? <a class="faq-a-email" href="mailto:freddy@quhacks.tech">Send us an email!</a></p>
                 <h1 class = "sponsors-label sponsors-h2" id="sponsors-plat-label">Platinum Sponsors</h1>
                 <ul class="sponsors-plat">
                     <li><a href="https://www.bitrise.io/" target="_blank"><img src="media/sponsors/bitrise.png"></a></li>
@@ -254,10 +153,12 @@
                   <a href="https://repl.it/" target="_blank"><img src="media/sponsors/replit.png"></a>
                   <a href="https://wolframalpha.com" target="_blank"><img src="media/sponsors/Wolfram.png"></a>
                 </ul>
+
             </div>
             <hr class="body-border">
-            <div id="team">
+            <div id="team"><br>
                 <h1 class="section-heading" id="team-heading">Our Team</h1>
+                <span id="colorsquare1">.</span><span id="colorsquare2">.</span><span id="colorsquare3">.</span>
                 <div class="team">
                     <div><img src="media/team/annaheadshot.jpg" /><h2 id="h2-Anna">Anna Han<br>Director</h2><p>Anna is a senior at Marriotts Ridge High School, where she is involved with She++, speech, and FBLA. Outside of school, she is part of the HopeWorks Youth Leadership Program, the JHU APL STEM Academy/ASPIRE program, and Howard County Sources of Strength. In her free time, Anna loves spending time with her family and playing the piano, violin, viola, and guitar.</p></div>
 
