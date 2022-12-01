@@ -180,7 +180,7 @@ footer > a:hover {
     animation: blink 0.3s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    animation-timing-function: none;
+    animation-timing-function: steps(1,jump-none);
 }
 .flexbox    {
     margin: 0px auto;
@@ -331,48 +331,22 @@ tr:nth-child(even) {
 .team a:link{
 	color: #FFF0EA;
 }
-#h2-Anna{
+.about-header2-1{
   color: #EB677B;
 }
-#h2-Ryan{
+.about-header2-2{
   color: #86A8BD;
 }
-#h2-Jesse{
+.about-header2-3{
   color: #FAC3A2;
 }
-#h2-Jeffrey{
+.about-header2-4{
   color: #F79586;
 }
-#h2-Nicole{
+.about-header2-5{
   color: #4F7C8F;
 }
-#h2-Laura{
-  color: #EB677B;
-}
-#h2-Akshay{
-  color: #86A8BD;
-}
-#h2-Austin{
-  color: #FAC3A2;
-}
-#h2-Sophia{
-  color: #F79586;
-}
-#h2-Anurag{
-  color: #4F7C8F;
-}
-#h2-Arjav{
-  color: #EB677B;
-}
-#h2-Daeyong{
-  color: #86A8BD;
-}
-#h2-Julian{
-  color: #FAC3A2;
-}
-#h2-Lucas{
-  color: #F79586;
-}
+
 .team a:visited{
 	color: #FFF0EA;
 }
@@ -883,18 +857,18 @@ nav a:hover{
     animation: blink 0.3s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    animation-timing-function: none;
+    animation-timing-function: steps(1, jump-none);
     cursor: pointer;
 }
 #blink {
     animation: blink 0.4s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    animation-timing-function: none;
+    animation-timing-function: steps(1, jump-none);
 }
 @keyframes blink {
-    from {opacity:0};
-    to {opacity:1};
+    from {opacity:0}
+    to {opacity:1}
 }
 .button:hover, button:hover {
     box-shadow: 0.5rem 0.5rem 0 #160f27;
