@@ -286,6 +286,7 @@ td, th {
     border: 1px solid #FFF0EA;
     text-align: left;
     padding: .5vw;
+    font-size: 3.5vh;
 }
 tr:nth-child(even) {
     background-color: #FFF0EA;
@@ -550,7 +551,7 @@ tr:nth-child(even) {
     text-align: center;
 }
 .schedule table {
-    width: 70%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vh;
