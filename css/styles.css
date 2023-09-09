@@ -23,6 +23,23 @@ ul  {
     list-style-type: none;
 }
 
+.annoucement-banner {
+    background-color: black;
+    margin-top: 4.5rem;
+}
+
+.annoucement-banner > p {
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #130e20;
+    text-align: center;
+    font-family: monospace;
+    animation: none;
+    text-shadow: none;
+    font-weight:900;
+}
+
 .button {
   background-color: #22193a;
   border: none;
@@ -49,8 +66,10 @@ nav {
     position: fixed;
     left: 0;
     top: 0;
+    height: 4.5rem;
     width: 100%;
     z-index: 2;
+    background-color: #22193a;
 }
 nav > p {
     font-family: 'Press Start 2P', cursive;
@@ -94,6 +113,7 @@ nav > ul > li > a {
 .navTransparent {
     transition-duration: 0.5s;
     background-color: transparent;
+    background-color: #22193a;
 }
 
 .navTransparent > ul > li:hover, .navTransparent > ul > li.nav-reg {
@@ -740,10 +760,25 @@ tr, th, td  {
         width: 100%;
     }
 }
+@media only screen and (max-width : 1215px) {
+    .title {
+        display: none;
+    }
+}
+
 @media only screen and (max-width : 767px){
     nav {
         display: none;
     }
+
+    .annoucement-banner {
+        margin-top: 0;
+    }
+
+    .annoucement-banner > p {
+        margin: 0;
+    }
+    
     header {
         width: 100%;
         background: linear-gradient(#2c292d44, #332557), url('../media/old_header.jpg');
